@@ -5,10 +5,10 @@ public class Moyenne {
 		this.noteA = noteA;
         this.noteB = noteB;
 	}
-	public int getNote1() {
+	public int getNoteA() {
 		return this.noteA;
 	}
-    public int getNote2() {
+    public int getNoteB() {
 		return this.noteB;
 	}
   
