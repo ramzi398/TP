@@ -1,17 +1,21 @@
 public class Moyenne {
-    int noteA;
-    int noteB;
-	Moyenne(int noteA, int noteB){
-		this.noteA = noteA;
-        this.noteB = noteB;
+
+    int note1;
+    int note2;
+	Moyenne(int note1, int note2){
+		this.note1 = note1;
+        this.note2 = note2;
 	}
 	public int getNote1() {
-		return this.noteA;
+		return this.note1;
 	}
     public int getNote2() {
-		return this.noteB;
+		return this.note2;
+
 	}
   
 
    
+
 }
+
